@@ -1,4 +1,4 @@
-
+import config from "./config";
 import './App.css';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h1>Tino Portfolio</h1>
       <h2>Welcome to my Page</h2>
+      <div>BaseURL: {config.baseURL}</div>
     </div>
   );
 }
