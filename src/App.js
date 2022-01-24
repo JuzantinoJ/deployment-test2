@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h1>Tino Portfolio</h1>
       <h2>Welcome to my Page</h2>
+      Learn React (Deploy Test)
       <div>BaseURL: {config.baseURL}</div>
     </div>
   );
